@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-	public static Connectionion getConnection() {
+	public static Connection getConnection() {
 		Connection connection = null;
 		String url = "jdbc:mysql://localhost:3306";
 		String user = "root";
